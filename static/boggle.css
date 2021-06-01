@@ -1,0 +1,33 @@
+.board {
+    font-size: 200%;
+}
+
+.board td {
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.msg {
+    padding: 1em;
+    text-align: center;
+    border-radius: 1rem;
+}
+
+.msg.error {
+    color: white;
+    display: inline-flex;
+    background-color: red;
+}
+
+.msg.success {
+    color: white;
+    display: inline-flex;
+    background-color: green;
+}
+
+.msg.final {
+    color: white;
+    display: inline-flex;
+    background-color:rgb(209, 171, 88);
+}
